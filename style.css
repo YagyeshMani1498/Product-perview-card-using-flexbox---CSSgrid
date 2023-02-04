@@ -151,6 +151,7 @@ body {
 /* styling button */
 
 .button {
+  cursor: pointer;
   text-decoration: none;
   padding: 0.7rem 1.5rem;
   border: 0;
@@ -170,4 +171,8 @@ body {
   width: 15px;
   height: 16px;
   display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--veryDarkCyan);
 }
