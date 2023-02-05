@@ -88,16 +88,16 @@ body {
   background-color: var(--Cream);
   display: grid;
   place-content: center;
-  height: 100vh;
+  min-height: 100vh;
   color: var(--DarkGrayishBlue);
 }
 
 .main-container {
   background-color: var(--White);
   border-radius: 0.5rem;
-  overflow-x: hidden;
+  overflow: hidden;
   display: grid;
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 @media (min-width: 600px) {
@@ -175,4 +175,10 @@ body {
 
 .button:hover {
   background-color: var(--veryDarkCyan);
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 1rem;
 }
